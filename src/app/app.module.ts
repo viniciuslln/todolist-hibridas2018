@@ -1,3 +1,4 @@
+import { BuscaPage } from './../pages/busca/busca';
 import { TarefasService } from './../providers/tarefas-service';
 import { ProjetosService } from './../providers/projetos-service';
 import { TarefasPage, Filtro } from './../pages/tarefas/tarefas';
@@ -24,7 +25,8 @@ import { HttpModule } from '@angular/http';
     ProjetosPage,
     TarefaPage,
     TarefasPage,
-    Filtro
+    Filtro,
+    BuscaPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { HttpModule } from '@angular/http';
     ProjetoPage,
     ProjetosPage,
     TarefaPage,
-    TarefasPage
+    TarefasPage,
+    BuscaPage
   ],
   providers: [
     StatusBar,
